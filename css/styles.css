@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#F0F0F0;
+}
+ 
+a.balloon {
+	outline:none;
+	text-decoration:none;
+	color: #00F; 
+}
+
+a.balloon strong {
+	line-height:30px;
+	font-family: Candara, Tahoma, Geneva, sans-serif; 
+	font-size: 1.2em; 
+	font-weight: bold;
+}
+
+a.balloon:hover {
+	text-decoration:none;
+	text-outline:none;
+	color: #F06;
+} 
+
+
+a.balloon:hover img {
+	text-decoration:none;
+	text-outline:none;
+	border: none;
+} 
+
+a.balloon img {
+	border: none;
+} 
+
+a.balloon div {
+    z-index: 10;
+	display: none; 
+	padding: 5px 5px;
+    margin-top: -30px; 
+	margin-left: 10px;
+    min-width: 75px; 
+	line-height: 16px;
+	border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-box-shadow: 6px 6px 10px #CCC;
+    -webkit-box-shadow: 6px 6px 10px #CCC;
+    box-shadow: 6px 6px 10px #CCC;
+	font-family: Calibri, Tahoma, Geneva, sans-serif;
+	font-size: .8em;
+}
+
+a.balloon:hover div {
+    display: inline; 
+	position: absolute; 
+	color: #111;
+    border: 1px solid #DCA; 
+	background: #fffAF0;
+}
+
+a.balloon:hover li{
+	list-style:none;
+}
+
+.arrow{
+	z-index: 20;
+	position: absolute;
+	top: 30px;
+	border: 0;
+	left: -12px;
+	background-color: transparent;
+}
+    
