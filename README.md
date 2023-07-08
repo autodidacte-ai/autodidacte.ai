@@ -3,7 +3,7 @@
 autodidacte.ai web site
 
 See [here](http://blog.teamtreehouse.com/using-github-pages-to-host-your-website) for setup details.
-Visible at [https://autodidacte-ai.github.io/autodidacte.ai/](https://autodidacte-ai.github.io/autodidacte.ai/).
+Visible at [https://autodidacte-ai.github.io/autodidacte.ai/](https://autodidacte-ai.github.io/autodidacte.ai/) & [autodidacte.ai](https://www.autodidacte.ai/).
 
 First you will need to create a new file in your GitHub repo called CNAME that contains the domain name (or subdomain) that you wish to use. This file should be placed in the gh-pages branch if you are using project-pages (as we have been in this post). If you are using user-pages the file should be placed in the master branch.
 
